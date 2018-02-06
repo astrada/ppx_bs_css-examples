@@ -1,0 +1,7 @@
+{
+  "name": "ppx_bs_css-example",
+  "sources": ["src"],
+  "bs-dependencies": ["typed-glamor"],
+  "ppx-flags": ["\"ppx_bs_css --as-ppx\""],
+  "refmt": 3
+}

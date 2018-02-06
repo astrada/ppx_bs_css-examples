@@ -1,0 +1,25 @@
+{
+  "name": "ppx_bs_css-example",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "prepare": "npm link bs-platform"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astrada/ppx_bs_css-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/astrada/ppx_bs_css-example/issues"
+  },
+  "homepage": "https://github.com/astrada/ppx_bs_css-example",
+  "description": "Examples of ppx_bs_css usage",
+  "author": "Alessandro Strada <alessandro.strada@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "typed-glamor": "../bs-typed-css/packages/glamor"
+  }
+}
