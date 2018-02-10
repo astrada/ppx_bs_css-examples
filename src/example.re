@@ -7,7 +7,8 @@ let f = () => {
     color: red;
     background-color: test;
     margin: auto 0 10px 1em;
-    border-bottom: thin dashed #eee
+    border-bottom: thin dashed #eee;
+    border-right-color: rgb(1, 1, 1);
   |}
   ];
 };
