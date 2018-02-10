@@ -3,5 +3,8 @@
   "sources": ["src"],
   "bs-dependencies": ["typed-glamor"],
   "ppx-flags": ["\"ppx_bs_css --as-ppx\""],
-  "refmt": 3
+  "refmt": 3,
+  "warnings": {
+    "number": "-6"
+  }
 }
