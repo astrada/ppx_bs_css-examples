@@ -1,12 +1,12 @@
 open TypedGlamor;
 
 let f = () => {
-  let test = blue;
+  let test = white;
   [%css
     {|
     color: red;
     background-color: test;
-    margin: auto auto;
+    margin: auto 0 10px 1em;
   |}
   ];
 };
