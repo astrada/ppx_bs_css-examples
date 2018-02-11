@@ -1,5 +1,5 @@
 {
-  "name": "ppx_bs_css-example",
+  "name": "ppx_bs_css-typed-glamor-example",
   "sources": ["src"],
   "bs-dependencies": ["typed-glamor"],
   "ppx-flags": ["\"ppx_bs_css --as-ppx\""],

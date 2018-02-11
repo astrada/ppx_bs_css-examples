@@ -1,0 +1,10 @@
+{
+  "name": "ppx_bs_css-core-example",
+  "sources": ["src"],
+  "bs-dependencies": ["bs-css-core"],
+  "ppx-flags": ["\"ppx_bs_css --as-ppx\""],
+  "refmt": 3,
+  "warnings": {
+    "number": "-6"
+  }
+}
