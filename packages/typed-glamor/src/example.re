@@ -1,6 +1,5 @@
-open TypedGlamor;
-
 let f = () => {
+  let open TypedGlamor;
   let test = white;
   [%css
     {|

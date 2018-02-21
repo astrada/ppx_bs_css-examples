@@ -1,6 +1,5 @@
-open BsCssCore.Css;
-
 let f = () => {
+  let open Css;
   let test = white;
   [%css
     {|

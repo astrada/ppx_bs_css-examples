@@ -1,6 +1,6 @@
 {
-  "name": "ppx_bs_css-core-example",
-  "description": "Example using ppx_bs_css with bs-css-core",
+  "name": "ppx-bs-css-example",
+  "description": "Example using ppx_bs_css with bs-css",
   "version": "0.1.0",
   "scripts": {
     "build": "bsb -make-world",
@@ -19,6 +19,6 @@
   "author": "Alessandro Strada <alessandro.strada@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "bs-css-core": "^0.2.2"
+    "bs-css": "^6.3.0"
   }
 }

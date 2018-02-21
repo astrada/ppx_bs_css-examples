@@ -1,5 +1,5 @@
 {
-  "name": "ppx_bs_css-typed-glamor-example",
+  "name": "ppx-bs-css-typed-glamor-example",
   "description": "Example using ppx_bs_css with typed-glamor",
   "version": "0.1.0",
   "scripts": {
@@ -19,6 +19,6 @@
   "author": "Alessandro Strada <alessandro.strada@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "typed-glamor": "../../../bs-typed-css/packages/glamor"
+    "typed-glamor": "modules/bs-typed-css/packages/glamor"
   }
 }
