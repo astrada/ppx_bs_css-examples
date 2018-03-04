@@ -1,19 +1,19 @@
 let f = () => {
   open Css;
   let test = white;
-  let styles = [%css
+  let styles = [%style
     {|
       color: red;
       background-color: test;
       margin: auto 0 10px 1em;
-      /*border-bottom: thin dashed #eee;*/
+      border-bottom: 1px dashed #eee;
 
-      border-right-color: rgb(1, 0, 1);
+      border-right-color: rgba(1, 0, 1, 0.5);
       width: 70%;
-      background: url(http://example.com/test.jpg)
+      background: url(http://example.com/test.jpg);
     |}
   ];
-  let bounces = [%css
+  let bounces = [%style
     {|
       @keyframes {
         from { transform: scale(0.1, 0.1); opacity: 0.0; }
@@ -23,13 +23,24 @@ let f = () => {
     |}
   ];
   let bounce = List.hd(bounces);
-  let stylesWithAnimation = [%css
+  let stylesWithAnimation = [%style
     {|
       animation-name: bounce;
       animation-duration: 2000;
       width: 50px;
       height: 50px;
       background-color: rgb(255, 0, 0)
+    |}
+  ];
+  let css = [%css
+    {|
+      {
+        color: red;
+      }
+
+      :hover {
+        color: blue;
+      }
     |}
   ];
   ();
