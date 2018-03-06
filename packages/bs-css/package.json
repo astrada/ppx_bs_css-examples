@@ -20,5 +20,8 @@
   "license": "MIT",
   "dependencies": {
     "bs-css": "^6.3.0"
+  },
+  "devDependencies": {
+    "reason-react": "^0.3.2"
   }
 }

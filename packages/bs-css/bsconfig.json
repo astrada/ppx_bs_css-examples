@@ -1,8 +1,9 @@
 {
   "name": "ppx-bs-css-example",
   "sources": ["src"],
-  "bs-dependencies": ["bs-css"],
+  "bs-dependencies": ["bs-css", "reason-react"],
   "ppx-flags": ["\"ppx_bs_css --as-ppx\""],
+  "reason": {"react-jsx": 2},
   "refmt": 3,
   "warnings": {
     "number": "-6"
