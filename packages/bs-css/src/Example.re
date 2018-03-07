@@ -22,7 +22,8 @@ module Page = {
   let styles = Css.({
     "page": [%style {|
       box-sizing: border-box;
-      background: linear-gradient(45deg, red 0%, blue 100%);
+      background: linear-gradient(45deg, red 0, blue 100%);
+      background-image: radial-gradient(red 0, blue 100%);
       width: 100vw;
       height: 100vh
     |}]
