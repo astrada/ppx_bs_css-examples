@@ -3,18 +3,11 @@ Css.(global("html, body", [%style {|
     margin-left: 5px;
     padding: 0
 |}]));
-let text = ReasonReact.stringToElement;
+
 let fadeIn = Css.([%style {|
   @keyframes {
     0% { opacity: 0.0 }
     100% { opacity: 1.0 }
-  }
-|}]);
-
-let spin = Css.([%style {|
-  @keyframes {
-    from { transform: rotate(0deg) }
-    to { transform: rotate(360deg) }
   }
 |}]);
 
