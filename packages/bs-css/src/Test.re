@@ -326,8 +326,8 @@ let tests = {
     </Section>
 
     <Section name="animation">
-      <div className=Css.(style([animation(~duration=300, ~delay=300, ~direction=reverse, ~timingFunction=linear, ~fillMode=forwards, ~playState=running, ~iterationCount=infinite, spin), ...box])) />
-      <div className=Css.(style([animations([animation(~duration=300, ~iterationCount=infinite, spin), animation(~duration=300, ~iterationCount=infinite, scaleAnimation)]), ...box])) />
+      <div className=Css.(style([%style "animation: 300ms 300ms reverse linear forwards running infinite spin"] @ box)) />
+      <div className=Css.(style([%style "animation: 300ms infinite spin, 300ms infinite scaleAnimation"] @ box)) />
       <div className=Css.(style([%style {|
         animation-name: spin;
         animation-timing-function: ease-in;
