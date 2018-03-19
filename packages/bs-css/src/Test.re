@@ -136,8 +136,8 @@ let tests = {
       <div className=Css.(style([%style "padding: 10px 20px; margin: 10px 20px"] @ box)) />
       <div className=Css.(style([%style "padding: 10px 20px 1px; margin: 10px 20px 2px"] @ box)) />
       <div className=Css.(style([%style "
-        padding: 10px 1px 5px 15px; 
-        margin: 10px 1px 5px 15px"] @ box)) />
+        padding: 10px 15px 1px 5px; 
+        margin: 10px 15px 1px 5px"] @ box)) />
     </Section>
 
     <Section name="flexbox">
