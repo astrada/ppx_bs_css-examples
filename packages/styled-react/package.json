@@ -6,6 +6,7 @@
     "build": "bsb -make-world",
     "start": "bsb -make-world -w",
     "clean": "bsb -clean-world",
+    "webpack": "webpack -w",
     "prepare": "npm link bs-platform"
   },
   "repository": {
@@ -19,6 +20,11 @@
   "author": "Alessandro Strada <alessandro.strada@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "typed-glamor": "modules/bs-typed-css/packages/glamor"
+    "reason-react": "^0.3.4",
+    "styled-react": "file:modules/bs-typed-css/packages/react",
+    "typed-glamor": "file:modules/bs-typed-css/packages/glamor"
+  },
+  "devDependencies": {
+    "webpack": "^3.11.0"
   }
 }
