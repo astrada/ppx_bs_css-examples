@@ -61,5 +61,30 @@ TypedGlamor.color(TypedGlamor.red);
   /* [] */0
 ];
 
+TypedGlamor.fontFamilies(/* :: */[
+      "Helvetica",
+      /* [] */0
+    ]);
+
+/* :: */[
+  TypedGlamor.fontFamilies(/* :: */[
+        "Gill Sans Extrabold",
+        /* :: */[
+          "sans-serif",
+          /* [] */0
+        ]
+      ]),
+  /* :: */[
+    TypedGlamor.fontFamilies(/* :: */[
+          "Goudy Bookletter 1911",
+          /* :: */[
+            "sans-serif",
+            /* [] */0
+          ]
+        ]),
+    /* [] */0
+  ]
+];
+
 exports.f = f;
 /*  Not a pure module */

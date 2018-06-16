@@ -47,3 +47,14 @@ let _ = {
   ];
 };
 
+/* Font family */
+let _ = {
+  let open TypedGlamor;
+  [%style
+    {typed|
+      font-family: Helvetica;
+      font-family: Gill Sans Extrabold, sans-serif;
+      font-family: "Goudy Bookletter 1911", sans-serif;
+    |typed}
+  ];
+};
