@@ -58,3 +58,15 @@ let _ = {
     |typed}
   ];
 };
+
+/* z index */
+let _ = {
+  let open TypedGlamor;
+  [%style
+    {typed|
+      z-index: 7;
+      z-index: auto;
+    |typed}
+  ];
+};
+

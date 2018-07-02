@@ -86,5 +86,12 @@ TypedGlamor.fontFamilies(/* :: */[
   ]
 ];
 
+TypedGlamor.zIndex(TypedGlamor.$$int(7));
+
+/* :: */[
+  TypedGlamor.zIndex(TypedGlamor.auto),
+  /* [] */0
+];
+
 exports.f = f;
 /*  Not a pure module */
