@@ -111,3 +111,17 @@ let _ = {
   ];
 };
 
+/* flex-grow/flex-shrink */
+let _ = {
+  let open Css;
+  [%style
+    {|
+      flex-grow: 0;
+      flex-grow: 1;
+
+      flex-shrink: 0;
+      flex-shrink: 1;
+    |}
+  ];
+};
+
