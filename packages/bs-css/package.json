@@ -20,7 +20,7 @@
   "author": "Alessandro Strada <alessandro.strada@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "bs-css": "^6.5.0"
+    "bs-css": "^7.0.1"
   },
   "devDependencies": {
     "reason-react": "^0.3.2",
