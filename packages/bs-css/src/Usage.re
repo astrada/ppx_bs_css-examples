@@ -84,3 +84,30 @@ let _ = {
   ];
 };
 
+/* z index */
+let _ = {
+  let open Css;
+  [%style
+    {|
+      z-index: 7;
+    |}
+  ];
+};
+
+/* display */
+let _ = {
+  let open Css;
+  [%style
+    {|
+      display: flex;
+      display: block;
+      display: inline;
+      display: inline-block;
+      display: none;
+      display: inline-flex;
+      display: grid;
+      display: inline-grid;
+    |}
+  ];
+};
+
