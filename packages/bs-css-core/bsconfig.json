@@ -1,7 +1,7 @@
 {
-  "name": "ppx-bs-css-example",
+  "name": "ppx-bs-css-core-example",
   "sources": ["src"],
-  "bs-dependencies": ["bs-css", "reason-react"],
+  "bs-dependencies": ["@astrada/bs-css-core", "reason-react"],
   "ppx-flags": ["ppx_bs_css --as-ppx"],
   "reason": {"react-jsx": 2},
   "refmt": 3,

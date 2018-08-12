@@ -1,4 +1,4 @@
-let text = ReasonReact.stringToElement;
+let text = ReasonReact.string;
 
 module Styles = {
   open TypedGlamor;
@@ -38,7 +38,7 @@ module Fruit = {
     ...component,
     render: _self =>
       <Styles.Fruit state=isSelected>
-        <div onClick=(_e => onSelect())>
+        <div onClick=(_e => onSelect)>
           (name |> text)
         </div>
       </Styles.Fruit>
@@ -62,11 +62,11 @@ let make = (~message, _children) => {
     | Select(name) => ReasonReact.Update({ selected: Some(name) })
     },
 
-  render: ({reduce, state}) =>
+  render: ({send, state}) =>
     <Styles.Stateless>
       {
-        fruit |> Array.map(name => <Fruit name isSelected=(Some(name)==state.selected) onSelect=reduce(() => Select(name))/>)
-              |> ReasonReact.arrayToElement
+        fruit |> Array.map(name => <Fruit name isSelected=(Some(name)==state.selected) onSelect=send(Select(name))/>)
+              |> ReasonReact.array
       }
     </Styles.Stateless>
 };

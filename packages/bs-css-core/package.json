@@ -1,6 +1,6 @@
 {
-  "name": "ppx-bs-css-typed-glamor-example",
-  "description": "Example using ppx_bs_css with typed-glamor",
+  "name": "ppx-bs-css-core-example",
+  "description": "Example using ppx_bs_css with bs-css-core",
   "version": "0.1.0",
   "scripts": {
     "build": "bsb -make-world",
@@ -20,11 +20,10 @@
   "author": "Alessandro Strada <alessandro.strada@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "reason-react": "^0.5.0",
-    "styled-react": "file:modules/bs-typed-css/packages/react",
-    "typed-glamor": "file:modules/bs-typed-css/packages/glamor"
+    "@astrada/bs-css-core": "^0.3.2"
   },
   "devDependencies": {
+    "reason-react": "^0.5.0",
     "webpack": "^3.11.0"
   }
 }

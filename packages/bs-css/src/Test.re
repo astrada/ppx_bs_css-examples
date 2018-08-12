@@ -1,4 +1,4 @@
-let text = ReasonReact.stringToElement;
+let text = ReasonReact.string;
 
 let spin = Css.([%style {|
   @keyframes {
@@ -51,7 +51,7 @@ module Section = {
     render: (_) => {
       <section className=Css.style(section)>
         <h1> (text(name)) </h1>
-        (ReasonReact.createDomElement("div", {"className": Css.style(rowLayout)}, children))
+        <div className=Css.style(rowLayout)> ...(children) </div>
       </section>
     }
   }

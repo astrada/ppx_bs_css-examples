@@ -17,7 +17,7 @@
     "typed-glamor",
     "styled-react"
   ],
-  "ppx-flags": ["\"ppx_bs_css --as-ppx\""],
+  "ppx-flags": ["ppx_bs_css --as-ppx"],
   "refmt": 3,
   "warnings": {
     "error": "+5"
