@@ -310,7 +310,7 @@ let tests = {
         font-style: italic;
         font-weight: 300;
         letter-spacing: 3px;
-        line-height: 2.0;
+        line-height: 2em;
         text-align: left;
         text-decoration: underline;
         text-decoration-color: pink;
