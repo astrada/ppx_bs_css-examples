@@ -2,8 +2,8 @@ styled-react
 ============
 
 Example for [ppx\_bs\_css](https://github.com/astrada/ppx_bs_css). Ported from
-[styled-react
-example](https://github.com/astrada/bs-typed-css/tree/master/packages/react/example).
+[bs-typed-glamor
+README](https://github.com/glennsl/bs-typed-glamor/blob/master/README.md).
 
 ### Build
 

@@ -14,8 +14,7 @@
   "suffix": ".bs.js",
   "bs-dependencies": [
     "reason-react",
-    "typed-glamor",
-    "styled-react"
+    "bs-typed-glamor"
   ],
   "ppx-flags": ["ppx_bs_css --as-ppx"],
   "refmt": 3,
