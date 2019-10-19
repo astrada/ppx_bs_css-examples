@@ -1,3 +1,5 @@
+open BsCssCore;
+
 let wrapStyle = {
   /* Returns an empty className because bs-css-core doesn't provide
      a styling solution */

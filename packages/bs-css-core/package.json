@@ -6,8 +6,7 @@
     "build": "bsb -make-world",
     "start": "bsb -make-world -w",
     "clean": "bsb -clean-world",
-    "webpack": "webpack -w",
-    "prepare": "npm link bs-platform"
+    "webpack": "webpack -w"
   },
   "repository": {
     "type": "git",
@@ -20,10 +19,11 @@
   "author": "Alessandro Strada <alessandro.strada@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@astrada/bs-css-core": "^7.1.0"
+    "@astrada/bs-css-core": "file:../../../bs-css-core/"
   },
   "devDependencies": {
     "reason-react": "^0.5.3",
-    "webpack": "^3.11.0"
+    "webpack": "^3.11.0",
+    "bs-platform": "^5.0.6"
   }
 }

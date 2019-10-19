@@ -1,3 +1,5 @@
+open BsCssCore;
+
 /* Basic list of rules */
 let _ /* : list(Css.rule) */ = {
   let open Css;

@@ -2,7 +2,7 @@
   "name": "ppx-bs-css-example",
   "sources": ["src"],
   "bs-dependencies": ["bs-css", "reason-react"],
-  "ppx-flags": ["ppx_bs_css --as-ppx"],
+  "ppx-flags": ["ppx_bs_css/ppx"],
   "reason": {"react-jsx": 2},
   "refmt": 3,
   "warnings": {

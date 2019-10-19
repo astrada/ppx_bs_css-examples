@@ -1,3 +1,5 @@
+open BsCssCore;
+
 let text = ReasonReact.string;
 let wrapStyle = {
   /* Returns an empty className because bs-css-core doesn't provide
@@ -36,7 +38,7 @@ let section = Css.([%css {|
   & > h1 {
     font-family: "Helvetica, sans-serif";
     font-size: 32px;
-    font-weight: 300
+    font-weight: bolder
   }
   {
     position: relative;
@@ -75,8 +77,8 @@ let tests = {
       <div className=wrapStyle(Css.(style([%style "background: red"] @ box))) />
       <div className=wrapStyle(Css.(style([%style "background: rgb(255, 0, 0)"] @ box))) />
       <div className=wrapStyle(Css.(style([%style "background: rgba(255, 0, 0, 0.5)"] @ box))) />
-      <div className=wrapStyle(Css.(style([%style "background: hsl(255, 100, 50)"] @ box))) />
-      <div className=wrapStyle(Css.(style([%style "background: hsla(255, 100, 50, 0.5)"] @ box))) />
+      <div className=wrapStyle(Css.(style([%style "background: hsl(255, 100%, 50%)"] @ box))) />
+      <div className=wrapStyle(Css.(style([%style "background: hsla(255, 100, 50%, 0.5)"] @ box))) />
       <div className=wrapStyle(Css.(style([%style "background: #FF0000"] @ box))) />
       <div className=wrapStyle(Css.(style([%style "background: transparent"] @ box))) />
       <div className=wrapStyle(Css.(style([%style "background: current-color; color: blue"] @ box))) />
