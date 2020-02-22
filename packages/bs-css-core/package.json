@@ -22,8 +22,9 @@
     "@astrada/bs-css-core": "^10.0.1"
   },
   "devDependencies": {
-    "reason-react": "^0.5.3",
-    "webpack": "^3.11.0",
-    "bs-platform": "^5.0.6"
+    "ppx_bs_css": "^0.3.0",
+    "reason-react": "^0.7.0",
+    "webpack": "^4.0.0",
+    "bs-platform": "^7.1.0"
   }
 }

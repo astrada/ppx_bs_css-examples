@@ -70,8 +70,8 @@ let tests = {
       <div className=Css.(style([%style "background: red"] @ box)) />
       <div className=Css.(style([%style "background: rgb(255, 0, 0)"] @ box)) />
       <div className=Css.(style([%style "background: rgba(255, 0, 0, 0.5)"] @ box)) />
-      <div className=Css.(style([%style "background: hsl(255, 100, 50)"] @ box)) />
-      <div className=Css.(style([%style "background: hsla(255, 100, 50, 0.5)"] @ box)) />
+      <div className=Css.(style([%style "background: hsl(255, 100%, 50%)"] @ box)) />
+      <div className=Css.(style([%style "background: hsla(255, 100%, 50%, 0.5)"] @ box)) />
       <div className=Css.(style([%style "background: #FF0000"] @ box)) />
       <div className=Css.(style([%style "background: transparent"] @ box)) />
       <div className=Css.(style([%style "background: current-color; color: blue"] @ box)) />
@@ -305,7 +305,7 @@ let tests = {
         font-style: italic;
         font-weight: 300;
         letter-spacing: 3px;
-        line-height: 2.0;
+        line-height: 2px;
         text-align: left;
         text-decoration: underline;
         text-decoration-color: pink;
