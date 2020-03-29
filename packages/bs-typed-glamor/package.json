@@ -6,8 +6,7 @@
     "build": "bsb -make-world",
     "start": "bsb -make-world -w",
     "clean": "bsb -clean-world",
-    "webpack": "webpack -w",
-    "prepare": "npm link bs-platform"
+    "webpack": "webpack -w"
   },
   "repository": {
     "type": "git",
@@ -24,6 +23,8 @@
     "bs-typed-glamor": "https://github.com/glennsl/bs-typed-glamor.git"
   },
   "devDependencies": {
-    "webpack": "^3.11.0"
+    "ppx_bs_css": "^0.3.2",
+    "bs-platform": "^5.1.0",
+    "webpack": "^4.0.0"
   }
 }
